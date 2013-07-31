@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a SCORM 1.2 manifest file, created 10/2/2012 1:43:13 PM by Jaybe using CourseLab 120626 -->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" identifier="MANIFEST-E946B0B9_9EB1_4592_B947_0FAE1298378E" version="1.0">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="TA">
+<organization identifier="TA">
+<title>Turkish AirLines</title>
+<item identifier="TA" identifierref="RES1" parameters="?width=1000&amp;height=680">
+<title>Turkish AirLines</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource identifier="RESCOURSEIMAGES" adlcp:scormtype="asset" type="webcontent">
+</resource>
+<resource identifier="RES1" adlcp:scormtype="sco" href="index.html" type="webcontent">
+<file href="index.html"/>
+<file href="css\style.css"/>
+<file href="css\font\fontello.eot"/>
+<file href="css\font\fontello.svg"/>
+<file href="css\font\fontello.ttf"/>
+<file href="css\font\fontello.woff"/>
+<file href="js\jquery-1.8.0.min.js"/>
+<file href="js\SCORM_API_wrapper.js"/>
+<file href="js\script.js"/>
+<file href="pics\img_001.gif"/>
+<file href="pics\img_002.gif"/>
+<dependency identifierref="RESCOURSEIMAGES"/>
+</resource>
+</resources>
+</manifest>
